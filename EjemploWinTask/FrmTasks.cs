@@ -40,7 +40,7 @@ namespace EjemploWinTask
                     _scheduler)
                 }; 
                 Task.WaitAll(tareas);
-                MessageBox.Show("Todas las tareas han finalizado");
+                MessageBox.Show("Todas lass tareas han finalizado");
             }).Start();
         }
 
